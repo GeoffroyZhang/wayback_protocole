@@ -1,8 +1,8 @@
-# Protocole d'analyse des archives du web utilisant l'API de la Wayback Machine
+# Protocole d'extraction des archives du web utilisant l'API de la Wayback Machine
 
 ## Description
 
-Ce protocole de recherche collecte et analyse les archives web issue de la **Wayback Machine** (Internet Archive). Il s'agit de sites d'associations françaises et chinoises réunies en corpus autour d'une thématique commune . Il s'inscrit dans le cadre d'un mémoire de recherche universitaire à l'Université Paris 1 Panthéon-Sorbonne et vise à constituer un corpus diachronique à partir des pages d'accueil archivées de 46 sites associatifs.
+Ce protocole de recherche collecte et structure les archives web issue de la **Wayback Machine** (Internet Archive). Il s'agit de sites d'associations françaises et chinoises réunies en corpus autour d'une thématique commune . Il s'inscrit dans le cadre d'un mémoire de recherche universitaire à l'Université Paris 1 Panthéon-Sorbonne et vise à constituer un corpus diachronique à partir des pages d'accueil archivées de 46 sites associatifs.
 
 L'analyse porte uniquement sur les **pages d'accueil**, la profondeur d'archivage variant selon les sites, ce qui rend l'extraction des sous-pages peu fiable sur le plan temporel.
 
