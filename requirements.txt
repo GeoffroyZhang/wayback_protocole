@@ -1,0 +1,10 @@
+# Dépendances — Protocole Wayback Machine
+# Installation : pip install -r requirements.txt
+# Puis : playwright install chromium
+
+requests
+urllib3
+playwright
+beautifulsoup4
+trafilatura
+langdetect
