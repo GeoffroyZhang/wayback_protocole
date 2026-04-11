@@ -1,4 +1,4 @@
-# Protocole d'archivage web utilisant les archives de la Wayback Machine
+# Protocole d'analyse des archives du web utilisant l'API de la Wayback Machine
 
 ## Description
 
