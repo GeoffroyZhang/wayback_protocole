@@ -1,10 +1,10 @@
 """
-Objectif : Interroger l'API de la Wayback Machine afin de collecter des informations sur les sites
-que sont le nombre de snapshots valides (status code de 200) ; la date du premier snapshot ; et la 
-date du dernier snapshot afin de délimiter les limites temporelles de mon corpus. 
+Objectif : Interroger l'API de la Wayback Machine afin de collecter des informations, métadonnées sur les sites.
+Le nombre de snapshots valides (status code de 200) ; la date du premier snapshot ; et la 
+date du dernier snapshot afin de délimiter les limites temporelles du corpus. 
 Ce protocole s'appliquant seulement aux pages d'accueil des différents sites (urls) puisque la profondeur
 d'archivage varie selon les sites, donc il n'est pas pertinent d'extraire tout le site en raison des
-sauts temporels d'un lien à un autre au sein de la même entité web.
+sauts temporels d'un lien à l'autre au sein de la même entité web.
 """
 
 import requests
