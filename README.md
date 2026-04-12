@@ -62,7 +62,7 @@ Analyse les fichiers HTML collectés par le script précédent et extrait les m�
 Extrait le **contenu textuel** de chaque snapshot pour constituer un corpus linguistique diachronique :
 - Extraction via **Trafilatura**
 - Détection de la **langue** (via langdetect)
-- Sauvegarde en `.txt` (pour analyse sur **Iramuteq**) et `.csv` avec métadonnées
+- Sauvegarde en `.txt` (pour analyse sur **Iramuteq**) et `.csv` avec les métadonnées et le texte (pour une analyse avec Python ou R) 
 
 **Output :** Un dossier par domaine contenant les fichiers `.txt` et un `_metadata.csv`
 
