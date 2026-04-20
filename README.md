@@ -101,6 +101,7 @@ dossier_sortie = r"chemin/vers/votre/dossier/ArchivesDates.csv"
 
 ## Avertissements et biais
 
+- Lors de l'exécution du scirpt  `01_DateArchives.py` il faut faire attention car les snapshots pris en compte dans le décompte ne concernent pas forcément le site analysé, puisqu'un nom de domaine a une durée de vie et donc qu'elle peut passer d'un propriétaire à un autre. Il est nécessaire de nettoyer les snapshots collectés - après l'exécution du sript `02_ScriptWaybackPageAccueilVisuel.py` - afin de ne pas fausser les analyses. 
 - **Trafilatura** est principalement entraîné sur des articles de presse. Certains contenus associatifs pertinents peuvent ne pas être extraits. Une lecture proche des sources reste nécessaire.
 - **langdetect** utilise un modèle probabiliste. Sur des sites bilingues (français/chinois), il retourne la langue dominante. Sur des textes très courts, des confusions entre langues latines sont possibles.
 - Le **nombre de mots** peut être sous-estimé pour les pages en chinois, car les caractères ne sont pas séparés par des espaces.
@@ -113,7 +114,7 @@ dossier_sortie = r"chemin/vers/votre/dossier/ArchivesDates.csv"
 
 ```
 protocole-wayback/
-├── README.md
+├── README.md 
 ├── requirements.txt
 ├── 01_DateArchives.py
 ├── 02_ScriptWaybackPageAccueilVisuel.py
